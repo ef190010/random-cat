@@ -34,7 +34,7 @@ const IndexPage: NextPage = () => {
     //  {}内にはJavaScriptの式だけが書ける（if文とかはダメ）
     return (
         <div className={ styles.page }>
-            <button onClick={ handleClick } className={ styles.button }>See another cat!</button>
+            <button onClick={ handleClick } className={ styles.button }>他のねこを見る</button>
             <div className={ styles.frame }>
                 { loading || <img src={ imageUrl } className={ styles.img }/> }
             </div>
